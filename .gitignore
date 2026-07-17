@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Ambientes virtuais
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Banco e configurações locais
+banco/*.db
+banco/*.db-wal
+banco/*.db-shm
+banco/*.json
+banco/_tmp/
+banco/backups_v12/
+
+# Sistema
+.DS_Store
+Thumbs.db
